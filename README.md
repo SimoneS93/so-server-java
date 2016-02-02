@@ -4,6 +4,16 @@ E' codice scritto interamente da me, prendendo spunto dalle slide e da vari esem
 Ho intenzione di lasciare questa cartella qui anche dopo aver passato l'esame, quindi potrete consultarla anche in futuro.
 Spero sia utile a qualcuno.
 
+#### COME USARE LE CLASSI
+
+**SERVER**: aprite la classe che volete eseguire in un IDE a vostra scelta e mandatelo in esecuzione (altrimenti potete usare il comando java).
+
+**CLIENT**: se siete su Linux/OSX aprite il terminale e lanciate telnet:
+
+    $ telnet localhost 12345
+ 
+a seconda del server, digitate i comandi appropriati.
+
 #### DISCLAIMER
 
  - Per quanto io testi le classi e ne verifichi il corretto funzionamento, non posso garantire che siano al 100% corrette.
