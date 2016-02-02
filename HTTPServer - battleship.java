@@ -124,8 +124,7 @@ public class HTTPServer {
         int x = 0;
         String pair[] = input.replace("x=", "").replace("y=", "").split("&");
         String y = pair[1];
-        String point = y + x;
-        
+        String point = null;
         
         try {
              x = Integer.parseInt(pair[0]);
@@ -142,6 +141,7 @@ public class HTTPServer {
             abort(400, "Bad request", "y must be in range [A, J]");
         
         //controlla se la mossa √® gi√† stata fatta
+        point = y + x;
         if (done.contains(point))
             abort(400, "Bad request", "You've already done this move");
         else
